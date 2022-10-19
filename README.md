@@ -1,5 +1,5 @@
 # Interleave-AC3-TrueHD-Streams
-A Python script to interleave AC3 and TrueHD bit streams
+This is a Python script that interleaves the AC3 and TrueHD bit streams exactly as they are interleaved in blu-ray discs.
 ```
 usage: interleaveDolbyStreams [-h] [-o OUTPUT] AC3 THD
 
@@ -19,3 +19,4 @@ optional arguments:
   -h, --help  show this help message and exit
   -o OUTPUT   the name of the interleaved .thd+ac3 file
 ```
+The .thd+ac3 output of this script has been tested against .thd+ac3 files extracted from .m2ts files and .thd+ac3 files created by eac3to. The output of this script was exactly the same as the original .thd+ac3 files.
