@@ -1,5 +1,5 @@
 # Interleave-AC3-TrueHD-Streams
-This is a Python script that interleaves the AC3 and TrueHD bit streams exactly as they are interleaved in blu-ray discs.
+This is a Python script that interleaves the AC3 and TrueHD bit streams exactly as they are interleaved in blu-ray discs for compatibility with tsMuxer.
 ```
 usage: interleaveDolbyStreams [-h] [-o OUTPUT] AC3 THD
 
